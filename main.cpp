@@ -17,6 +17,26 @@ int cari(const User user[], string target){
     return -1;
 }
 
+int kendaraan(int a){
+    cout << "polih kendaraan \n";
+    cout << "1. Mobil\n";
+    cout << "2. Motor\n";
+    cout << "masukan pilihan : ";
+    cin >> a;
+    
+    if(kendaraan == 1){
+        
+    }else if(kendaraan == 2){
+        
+    }else {
+        while(kendaraan < 1 || kendaraan > 2){
+            cout << "angka tidak valid. masukan pilihan yang benar ! " << endl;
+            cout << "masukan pilihan : ";
+            cin >> a;
+        }
+    }
+}
+
 int main(){
     int asal, tujuan,idx;
     User user[4];
